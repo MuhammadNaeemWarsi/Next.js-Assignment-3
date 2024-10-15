@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-color: blue;
+    color: beige;
+    padding: 15px;
+}
+
+.header-button{
+    display: flex;
+   justify-content: center;
+  align-items: center;
+  gap:20px ;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 240px;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    padding: 1px;
+}
+.text{
+    font-size:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
